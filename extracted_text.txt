@@ -1,0 +1,304 @@
+
+--- Page 1 ---
+Madras Section
+
+IEEE IEEE
+
+Paper ID: 1508 Track No: 4
+
+Author Name: Madhumitha G K, Puja P, Mrs.Revathi M
+Affiliation: Department of Artificial intelligence and data science, St.joseph’s Institute of Technology,
+
+Chennai, Tamil Nadu.
+
+Presented By
+G K. Madhumitha, P. Puja
+
+IEEE International Conference on Emerging Technologies in
+
+Engineering Applications ICET EA 2025
+
+ 
+
+5-6 June 2025, Puducherry, India
+
+--- Page 2 ---
+ABSTRACT
+
+¢Food wastage is a critical global issue, with over 1.3 billion tons of food lost every year due to
+poor tracking. Traditional refrigerators are passive and lack intelligence to monitor or manage
+stored items efficiently. This contributes to unplanned spoilage, unnecessary purchases, and
+increased energy use.
+
+eThis project introduces a smart refrigerator system powered by Al, ML, and loT technologies.
+It uses computer vision to identify food items, OCR to extract expiry dates from barcodes, and
+reinforcement learning to adjust cooling dynamically. Real-time data is synced to a mobile app,
+enabling remote access and timely alerts.
+
+eOur proposed system significantly enhances user convenience while supporting sustainable
+living. It empowers users to keep track of inventory, avoid waste, and receive intelligent grocery
+suggestions. Energy efficiency is improved through smart temperature regulation based on food
+type and quantity.
+
+eThe integration of Al with cloud and mobile technologies creates a seamless smart kitchen
+ecosystem. Users gain complete visibility and control over stored food items, even when away
+from home. This system sets the foundation for future innovations in home automation, food
+safety, and energy conservation.
+
+ICETEA 2025
+
+--- Page 3 ---
+INTRODUCTION
+
+eln a world that’s getting smarter, the kitchen still struggles with one outdated habit: forgetting
+what’s in the fridge until it’s too late.
+
+eOver 1.3 billion tons of food is wasted globally each year, much of it from household refrigerators
+due to lack of visibility and tracking.
+
+eTraditional refrigerators are passive systems—they cannot detect items, track expiry dates, or
+regulate temperature intelligently.
+
+¢ Artificial Intelligence (Al) and the Internet of Things (loT) are transforming how we interact with
+home appliances by enabling automation and data-driven control.
+
+eA smart refrigerator can recognize stored food, monitor freshness, and automatically adjust
+cooling based on real-time conditions.
+
+eThis project proposes a solution that combines Al, machine learning, and loT to make food storage
+smarter, more efficient, and more sustainable.
+
+ICETEA 2025
+
+--- Page 4 ---
+LITERATURE SURVEY
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Reinforcement
+Learning
+
+ 
+
+ 
+
+ 
+
+The model learned optimal cooling/heating
+actions based on environmental
+inputs and historical patterns.
+Though focused on home temperature, the RL
+concept is adaptable to food _ cooling
+optimization.
+
+S.No Title Author Year Methodology Advantages
+1 Al-Driven Cloud Ali, N., Sadiq, M., 2023 Developed a cloud-integrated Al inventory - No visual recognition or expiry
+Integrated Smart & Noor, F. system accessible through mobile applications. detection
+Inventory System Used machine learning for demand forecasting ~ Designed for general inventory, not
+. eos . kitchen-specific
+and real-time stock monitoring across devices. . .
+- Lacks dynamic energy/cooling
+However, it lacked real-time visual detection optimization
+and specific adaptation to food storage
+scenarios.
+2 Energy Zhang, Q., Liu, X.,. 2021 | Applied reinforcement learning to dynamically | - Focuses on home HVAC, not food
+Optimization in| & Zhou, F. control HVAC systems for energy-efficient Storage
+Smart Homes Using homes - No food inventory or vision
+processing
+
+- Requires training and tuning for
+specific environments
+
+ 
+
+ 
+
+4
+
+Madras Section
+
+IEEE ag
+
+ICETEA 2025
+
+--- Page 5 ---
+LITERATURE SURVEY
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+IEEE
+
+Madras Section
+
+ 
+
+ 
+
+However, the system required manual data entry and
+lacked automation via vision or barcode detection.
+
+ 
+
+S.No Title Author Year Methodology Limitation Noted
+3 Automated Expiry Singh, R., 2022 Used OCR technology to extract expiry dates from food -Only detects expiry dates; no food
+Date Extraction Kumar, A., & labels and barcodes’ in_ retail environments. classification a
+Using OCR in Retail Mehta, D The system combined OpenCV-based preprocessing with | — Requires ideal lighting and clean labels
+, . - Not integrated with smart home or
+Environments Tesseract OCR for accurate text recognition. .
+refrigerator systems
+While effective in date detection, it was not designed for
+use within smart refrigerators.
+4 Real-Time Food Wu, L., Zhang, 2021 Employed CNN-based object detection to recognize food -No expiry tracking or shelf-life
+Recognition Using Y., & Chen, M items in real time using camera _ input. management a
+Deep Learning for The model utilized pre-trained architectures like MobileNet Noe to classification; no inventory
+istory
+Smart Homes to classify food categories accurately. | _ No integration with mobile/cloud
+This enabled automation in food recognition but lacked systems
+expiry detection or inventory integration.
+5 loT-Based Smart Lee, J., Kim, H., 2020 Implemented an loT-based refrigerator system equipped -No computer vision or automatic item
+Refrigerator for & Park, S with temperature and humidity sensors. ‘etection
+Food Expiry Used a GSM module to send SMS alerts to users when food Expiry Gata must be entered
+. man
+Management items were close to expiring. y
+
+- Limited to SMS notifications only
+
+ICETEA 2025
+
+--- Page 6 ---
+PROPOSED METHODOLOGY
+
+¢Food Detection & Expiry Tracking:
+
+Sensor cameras and barcode scanners capture images and product details. Al (YOLO, Faster R-CNN)
+detects food items, while OCR extracts expiry dates from labels.
+
+eIntelligent Data Processing:
+
+Machine learning models analyze inventory patterns and predict spoilage risks, enabling proactive
+food management.
+
+¢ Dynamic Cooling Control:
+
+A reinforcement learning algorithm (DQN) adjusts the refrigerator’s temperature based on food type,
+quantity, and freshness, improving energy efficiency.
+
+eCloud & Mobile Integration:
+
+lol modules sync data to cloud platforms (e.g., AWS, Firebase), allowing users to monitor and control
+the refrigerator remotely via a mobile app and voice assistants.
+
+ICETEA 2025
+
+--- Page 7 ---
+RESULT
+
+eThe smart refrigerator successfully detects and classifies various food items using deep
+learning-based computer vision models, providing consistent accuracy in real-world kitchen
+environments.
+
+eExpiry dates are accurately extracted from barcodes and labels using OCR, with over 90%
+success in well-lit conditions, reducing manual tracking by users.
+
+eThe reinforcement learning model dynamically adjusts the internal cooling based on food
+type, quantity, and freshness, achieving up to 18% reduction in energy consumption
+compared to traditional methods.
+
+eUsers benefit from real-time inventory updates, expiry alerts, and remote temperature
+control through an integrated mobile application, improving daily convenience.
+
+*Overall, the system proves effective in minimizing food waste, enhancing energy efficiency,
+and supporting sustainable kitchen automation through Al and lIoT integration.
+
+ 
+
+ICETEA 2025
+
+--- Page 8 ---
+FLOW CHART
+
+Smart Refrigerator System Architecture
+
+Smart Refrigerator
+Sensor Camera Barcode Scanner Temperature Sensor
+
+Al Processing Unit
+
+loT Cloud Platform —______-User Mobile App
+
+IEEE }IEEE az ICETEA 2025
+
+--- Page 9 ---
+CONCULSION AND FUTURE WORK
+
+The smart refrigerator system effectively integrates Al, ML, loT, and OCR to automate food
+recognition, expiry tracking, and energy management. The system reduces food waste, improves
+user convenience, and enhances energy efficiency through dynamic temperature control and
+real-time inventory updates.
+
+Future Work:
+
+eIncorporate voice assistant support for hands-free control
+
+eAdd weight sensors for quantity estimation
+
+eExtend the system to support automatic online grocery reordering
+eImprove OCR performance under varying lighting and font conditions
+eExplore blockchain for food traceability and data security
+
+ 
+
+ICETEA 2025
+
+--- Page 10 ---
+REFERENCE
+
+[1] GS. Kamble and P. Bartakke, "Smart Refrigerator Management System Using Deep Learning," 2023 Global Conference on Information Technologies and
+Communications (GCITC), Bangalore, India, 2023, pp. 1-6, doi: 10.1109/GCITC60406.2023.10425812.
+
+[2] |. -H. Li et al., "A Smart Refrigerator Management System," 2023 9th International Conference on Applied System Innovation (ICASI), Chiba, Japan, 2023, pp.
+9-11, doi: 10.1109/ICASIS57738.2023.10179597.
+
+[3] K. B, D. K. Yadav, O. S. Dalvi, D. S. Bin and R. N, "loT Based Smart Refrigerator for Food Management System," 2024 International Conference on Emerging
+Research in Computational Science (ICERCS), Coimbatore, India, 2024, pp. 1-7, doi: 10.1109/ICERCS63125.2024.10895890.
+
+[4] Y. Yorozu, M. Hirano, K. Oka, and Y. Tagawa, “Electron spectroscopy studies on magneto- optical media and plastic substrate interface,” IEEE Transl. J. Magn.
+Japan, vol. 2, pp. 740-741, August 1987 [Digests 9th Annual Conf. Magnetics Japan, p. 301, 1982].
+
+[5] S. Haque, J. Islam, M. D. E. Deowan, T. M. Mridul and N. Tabassum, "loT based smart refrigerator monitoring system," 2022 4th Global Power, Energy and
+Communication Conference (GPECOM), Nevsehir, Turkey, 2022,
+
+[[6] B. C. Mallikarjun, S. Harshitha, B. K. Harshita, S. Bhavani and S. Tarwey, "Smart Refrigerator: An IOT and Machine learning based Approach," 2020
+International Conference for Emerging Technology (INCET), Belgaum, India, 2020, 10.1109/INCET49848.2020.9154025.
+
+[7] H. R. Alsanad, M. A. Al-Askari, K. A. Omar, Y. Almashhadany, S. Algburi and T. A. Yaseen, "High Performance of Smart Refrigerator System Based on loT
+Technique," 2023 16th International Conference on Developments in eSystems Engineering (DeSE), Istanbul, Turkiye, 2023, pp. 451-455, doi:
+
+10.1109/DeSE60595.2023.10468835.
+
+IEEE IEEE az ICETEA 2025
+
+--- Page 11 ---
+ICETEA 2025
